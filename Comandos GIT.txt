@@ -1,0 +1,12 @@
+https://git-scm.com/docs
+
+git init  //inicializar um repositório (Controle de versão)
+git clone //Obter a estrutura de um servidor remoto, "clonar"
+git add . ou git add <<nome_arquivo>> //adicionar arquivos
+git commit -m 'mensagem de commit' //Salvar e tornar rastreáveis as alterações, msg da alteração que foi realizada no arquivo
+git push //publicar as alterações em um servidor remoto
+git pull //Baixar as alterações do servidor remoto
+git merge //Juntar duas coisas "Branchs"
+git status //Mostra informções do projeto
+git log //Histórico de alterações
+git branch <<nome da branch>> //Git trabalha com "ramos", cada alteração é gerado um novo Branch "ramo", aqui é criado um novo ramo para não alterar ou quebrar o ramo principal.
